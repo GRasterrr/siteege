@@ -1,0 +1,31 @@
+// Файл обнуляющих стилей
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import "nullstyle.scss";
+@import "header.scss";
+@import "infoege.scss";
+@import "footer.scss";
+@import "mathprofiltheory.scss";
+@import "choice.scss";
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+a {
+    color: rgb(214, 193, 193);
+}
+a:hover {
+    color: rgb(255, 255, 255);
+}
+.main__inner {
+    border-left: 1px solid rgba(201, 201, 201, 0.253);
+    border-right: 1px solid rgba(201, 201, 201, 0.253);
+}
+.disable {
+    display: none;
+}
