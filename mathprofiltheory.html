@@ -3,17 +3,14 @@
 	<head>
 		<title>название</title>
 		<link rel="stylesheet" href="css/style.css" />
-		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<meta charset="UTF-8">
 	</head>
 
 	<body>
 		<div class="wrapper">
 			<header class="header">
 				<ul class="header__list">
-					<ul class="list__left">
-						<li class="list__logo">dd</li>
-					</ul>
-					<ul class="list__right">
+					<ul class="list__container">
 						<li class="list__point"><a href="index.html">Информация об ЕГЭ</a></li>
 						<li class="list__point"><a href="choice.html">Предметы для подготовки</a></li>
 						<li class="list__point"><a href="#">Информация о сайте</a></li>
@@ -29,24 +26,78 @@
 					<div class="main__theorypanel">
 						<ul class="theorypanel__list">
 							<li class="theorypanel__theorypoint">
+								<div class="theorypoint__title">Произвольный (любой) треугольник</div>
+								<div class="theorypoint__main">
+									<div class="theorypoint__theory">
+										Сумма углов = 180 градусов <br>
+										Площадь через высоту: \(S=\frac{1}{2}ah\) <br>
+										Площадь ч-з стороны и синус между ними: \(S=\frac{1}{2}ab\sin{a}\) <br>
+										Площадь ч-з формулу Герона (p - полупериметр): \(S=\sqrt{p(p-a)(p-b)(p-c)}\) <br>
+										Площадь ч-з радиус описанной окружности: \(S=\frac{abc}{4R}\) <br>
+										Площадь ч-з радиус ВО: \(S=rp\) <br>
+										Теорема синусов: \(\frac{a}{\sin{a}}=\frac{b}{\sin{b}}=\frac{c}{\sin{c}}=2R\)
+									</div>
+									<div class="theorypoint__img"><img src="img/proizvtriangle.png" alt=""></div>
+								</div>
+							</li>
+							<li class="theorypanel__theorypoint">
 								<div class="theorypoint__title">Равнобедренный треугольник</div>
 								<div class="theorypoint__main">
-									<div class="theorypoint__theory">Углы при основании равны</div>
+									<div class="theorypoint__theory">
+										Углы при основании равны <br>
+										Биссектриса = Медиана = Высота <br>
+										Боковые стороны равны <br>
+									</div>
 									<div class="theorypoint__img"><img src="img/rbtriangle.png" alt=""></div>
 								</div>
 							</li>
 							<li class="theorypanel__theorypoint">
 								<div class="theorypoint__title">Равносторонний треугольник</div>
 								<div class="theorypoint__main">
-									<div class="theorypoint__theory">Углы по 60 градусов</div>
+									<div class="theorypoint__theory">
+										
+										Углы по 60 градусов <br>
+										Все стороны равны 
+
+									</div>
 									<div class="theorypoint__img"><img src="img/rstriangle.webp" alt=""></div>
 								</div>
 							</li>
 							<li class="theorypanel__theorypoint">
-								<div class="theorypoint__title">Равнобедренный треугольник</div>
+								<div class="theorypoint__title">Прямоугольный треугольник</div>
 								<div class="theorypoint__main">
-									<div class="theorypoint__theory">Углы при основании равны</div>
-									<div class="theorypoint__img"><img src="" alt=""></div>
+									<div class="theorypoint__theory">
+										Один из углов = 90 градусов (прямой) <br>
+										Напротив прямого угла - наибольшая сторона (гипотенуза), остальные - катеты <br>
+										Центр описанной окружности лежит на середине гипотенузы <br>
+										Теорема Пифагора: \(c^{2}=a^{2}+b^{2}\) <br>
+										Площадь: \(S=\frac{1}{2}ab\) <br>
+										Тригонометрические соотношения: \(\sin{A}=\frac{a}{c}\), \(\cos{A}=\frac{b}{c}\), \(tg{A}=\frac{a}{b}\) <br>
+										Радиус описанной окружности: \(R=\frac{c}{2}\) <br>
+										Радиус вписанной окружности: \(r=\frac{a+b-c}{2}\)
+
+									</div>
+									<div class="theorypoint__img"><img src="img/putriangle.png" alt=""></div>
+								</div>
+							</li>
+							<li class="theorypanel__theorypoint">
+								<div class="theorypoint__title">Тригонометрия</div>
+								<div class="theorypoint__main">
+									<div class="theorypoint__theory">
+										Главное тригонометрическое тождество: \(\sin^{2}{a}+\cos^{2}{a}=1\) <br>
+									</div>
+									<div class="theorypoint__img"><img src="img/circle.jpg" alt=""></div>
+								</div>
+							</li>
+							<li class="theorypanel__theorypoint">
+								<div class="theorypoint__title">Синус</div>
+								<div class="theorypoint__main">
+									<div class="theorypoint__theory">
+										Синус - это отношение противолежащего катета к прилежащему <br>
+										Теорема синусов: \(\frac{a}{\sin{a}}=\frac{b}{\sin{b}}=\frac{c}{\sin{c}}=2R\) <br>
+										Синус из косинуса: \(\sin{a}=\sqrt{1-\cos{a}}\)
+									</div>
+									<div class="theorypoint__img disable"><img src="img/proizvtriangle.png" alt="" class="disable"></div>
 								</div>
 							</li>
 						</ul>
@@ -57,5 +108,6 @@
 				<div class="">вввв</div>
 			</footer>
 		</div>
+		<script type="text/javascript" src="https://www.hostmath.com/Math/MathJax.js?config=OK"></script>
 	</body>
 </html>

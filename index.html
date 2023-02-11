@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
-		<title>название</title>
+		<title>Информация об ЕГЭ</title>
 		<link rel="stylesheet" href="css/style.css" />
-		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<meta charset="UTF-8">
 	</head>
 
 	<body>
 		<div class="wrapper">
 			<header class="header">
 				<ul class="header__list">
-					<ul class="list__left">
-						<li class="list__logo">dd</li>
-					</ul>
-					<ul class="list__right">
+					<ul class="list__container">
 						<li class="list__point"><a href="index.html">Информация об ЕГЭ</a></li>
 						<li class="list__point"><a href="choice.html">Предметы для подготовки</a></li>
 						<li class="list__point"><a href="#">Информация о сайте</a></li>
@@ -25,7 +22,7 @@
 					<div class="main__firstpanel">
 						<div class="firstpanel__left">
 							<div class="firstpanel__txt">С помощью нашего сайта вы сможете подготовиться к Единому Государственному
-								Экзамену (ЕГЭ), здесь можно найти большое количество теории,
+								Экзамену, здесь можно найти большое количество теории,
 								необходимой для сдачи ЕГЭ
 							</div>
 							<a href="choice.html" class="firstpanel__button">Выбрать предмет</a>
@@ -34,23 +31,34 @@
 							<img src="img/ege2.jpg" alt="">
 						</div>
 					</div>
-					<div class="main__content">
-						<div class="dates__txt">Содержане</div>
-						<ul class="content__list">
-							<li class="content__item"><a href="#dates">Даты проведения</a>
-								<li class="content__subitem"><a href="#">Основной период</a></li>
-								<li class="content__subitem"><a href="#">Резервные сроки</a></li>
-								<li class="content__subitem"><a href="#">Досрочный период</a></li>
-								<li class="content__subitem"><a href="#">Дополнительный период</a></li>
-							</li>
-							<li class="content__item">dd</li>
-							<li class="content__item">dd</li>
-							<li class="content__item">dd</li>
-							<li class="content__item">dd</li>
-						</ul>
+					<div class="main__secondpanel">
+						<div class="main__content">
+							<div class="content__title">Содержание</div>
+							<ul class="content__list">
+								<li class="content__item"><a href="#dates">1 Даты проведения</a>
+									<li class="content__subitem"><a href="#dates">1.1 Основной период</a></li>
+									<li class="content__subitem"><a href="#dates2">1.2 Резервные сроки</a></li>
+									<li class="content__subitem"><a href="#dates3">1.3 Досрочный период</a></li>
+									<li class="content__subitem"><a href="#dates4">1.4 Дополнительный период</a></li>
+								</li>
+								<li class="content__item">2 </li>
+								<li class="content__item">3 </li>
+								<li class="content__item">4 </li>
+								<li class="content__item">5 </li>
+							</ul>
+						</div>
+						<div class="main__fipilinks">
+							<div class="fipilinks__title">Ссылки ФИПИ</div>
+							<ul class="fipilinks__list">
+								<a class="fipilinks__item" href="https://fipi.ru/ege/demoversii-specifikacii-kodifikatory">Демоверсии, спецификации, кодификаторы</a>
+								<a class="fipilinks__item" href="https://fipi.ru/ege/otkrytyy-bank-zadaniy-ege">Открытый банк заданий</a>
+								<a class="fipilinks__item" href="https://fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege">Варианты КИМ 2022</a>
+							</ul>
+						</div>
 					</div>
 					<div class="main__dates" id="dates">
-						<div class="dates__txt">Даты проведения ЕГЭ в 2023 году (основной период)</div>
+						<div class="dates__title">Даты проведения ЕГЭ в 2023 году</div>
+						<div class="dates__subtitle" id="dates2">Основной период</div>
 						<ul class="dates__dates">
 							<li class="dates__item"><div class="item__left">География, Литература, Химия</div><div class="item__right">26 мая</div></li>
 							<li class="dates__item"><div class="item__left">Русский язык</div><div class="item__right">29 мая</div></li>
@@ -61,7 +69,7 @@
 							<li class="dates__item"><div class="item__left">Иностранные языки (устная часть)</div><div class="item__right">16 и 17 июня</div></li>
 							<li class="dates__item"><div class="item__left">Информатика и информационно-коммуникационные технологии (ИКТ)</div><div class="item__right">19 и 20 июня</div></li>
 						</ul>
-						<div class="dates__txt">Даты проведения ЕГЭ в 2023 году (резервные сроки)</div>
+						<div class="dates__subtitle" id="dates2">Резервные сроки</div>
 						<ul class="dates__dates">
 							<li class="dates__item"><div class="item__left">География, химия, информатика и ИКТ, иностранные языки (устная часть), история</div><div class="item__right">12 апреля</div></li>
 							<li class="dates__item"><div class="item__left">Иностранные языки (письменная часть), литература, физика, обществознание, биология</div><div class="item__right">14 апреля</div></li>
@@ -75,7 +83,7 @@
 							<li class="dates__item"><div class="item__left">По всем учебным предметам</div><div class="item__right">1 июля</div></li>
 							<li class="dates__item"><div class="item__left">Русский язык, ЕГЭ по математике базового уровня.</div><div class="item__right">19 сентября</div></li>
 						</ul>
-						<div class="dates__txt">Даты проведения ЕГЭ в 2023 году (досрочный период)</div>
+						<div class="dates__subtitle" id="dates3">Досрочный период</div>
 						<ul class="dates__dates">
 							<li class="dates__item"><div class="item__left">география, литература</div><div class="item__right">20 марта</div></li>
 							<li class="dates__item"><div class="item__left">русский язык</div><div class="item__right">23 марта</div></li>
@@ -85,7 +93,7 @@
 							<li class="dates__item"><div class="item__left">обществознание, информатика и ИКТ</div><div class="item__right">6 апреля</div></li>
 							<li class="dates__item"><div class="item__left">история, химия</div><div class="item__right">10 апреля</div></li>
 						</ul>
-						<div class="dates__txt">Даты проведения ЕГЭ в 2023 году (дополнительный период)</div>
+						<div class="dates__subtitle" id="dates4">Дополнительный период</div>
 						<ul class="dates__dates">
 							<li class="dates__item"><div class="item__left">русский язык</div><div class="item__right">6 сентября</div></li>
 							<li class="dates__item"><div class="item__left">математика базового уровня</div><div class="item__right">12 сентября</div></li>
